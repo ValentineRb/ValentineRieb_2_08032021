@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" /> 
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservia</title>
-
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
     <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- fontawesone -->
+    <script src="https://kit.fontawesome.com/af249e68ba.js" crossorigin="anonymous"></script>
   </head>
 
-  <!-- Web page content -->
+  <!-- contenu de la page -->
   <body>
     <div id="bloc_page">
       <!-- Header -->
       <header>
-        <img id="logo" src="img/logo/Reservia@3x.png" alt="Logo du site">    
+        <img id="logo" src="img/logo/Reservia@3x.png" alt="Logo du site" />
         <nav id="menu">
           <ul>
-            <li id="hebergements"><a href="#hebergements">Hébergements</a></li>
-            <li id="activite"><a href="#activite">Activités</a></li>
+            <li><a href="#hebergements">Hébergements</a></li>
+            <li><a href="#activite">Activités</a></li>
             <li id="sinscrire">S'inscrire</li>
           </ul>
         </nav>
       </header>
-      <!-- End of Header -->
+      <!-- Fin Header -->
+      <main>
+        <!-- Section recherche et filtres -->
+        <section id="recherche">
+          <div id="introduction">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en pleine nature</p>
+          </div>
+          <form id="formulaire_recherche">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            <input id="zone_recherche" type="text" placeholder="Marseille, France">
+            <button id="bouton_recherche" type="submit">Rechercher</button>
+          </form>
+          <div id="filtres">
+            <h2 id="titre_filtre">Filtres<h2>
+            <div id="theme">
+              <div class="exemple_theme">
+                <span class="icone_filtre"><i class="fas fa-money-bill-wave"></i></span>
+                <p class="nom_filtre">Economique</p>
+              </div>
+              <div class="exemple_theme">
+                <span class="icone_filtre"><i class="fas fa-child"></i></span>
+                <p class="nom_filtre">Familial</p>
+              </div>
+              <div class="exemple_theme">
+                <span class="icone_filtre"><i class="fas fa-heart"></i></span>
+                <p class="nom_filtre">Romantique</p>
+              </div>
+              <div class="exemple_theme">
+                <span class="icone_filtre"><i class="fas fa-dog"></i></span>
+                <p class="nom_filtre">Animaux autorisés</p>
+              </div>
+            </div>
+          </div>
+          <div id="information">
+          <span><i class="fas fa-info"></i></span>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+        </section>
+        <!-- Fin de section recherche et filtres -->
+      </main>
     </div>
   </body>
 </html>
