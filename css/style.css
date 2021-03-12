@@ -1,47 +1,45 @@
 body {
   display: flex;
   justify-content: center;
-  margin-top: 0px;
   font-family: "Raleway", sans-serif;
-  border: 3px solid black;
+  /* border: 3px solid black; */
 }
 
 #bloc_page {
   width: 100%;
-  max-width: 1300px;
-  border: 3px solid red;
+  max-width: 1100px;
+  /* border: 3px solid red; */
 }
 
-/*Header*/
+/*** HEADER ***/
+
 header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  border: 3px solid blue;
+  align-items: center;
+  /* border: 3px solid blue; */
 }
 
 #logo {
-  height: 25px;
-  border: 3px solid green;
+  height: 50px;
+  /* border: 3px solid green; */
 }
 
 nav {
   display: flex;
-  align-items: flex-end;
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 
 nav ul {
   display: flex;
-  margin-bottom: auto;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
 }
 
 nav li {
   list-style: none;
   padding-left: 50px;
-  font-size: 10px;
-  border: 3px solid purple;
+  font-size: 12px;
+  /* border: 3px solid purple; */
 }
 
 nav a {
@@ -51,13 +49,13 @@ nav a {
 
 nav a:hover {
   color: #0065fc;
-  padding: 30px 0 30px 0;
-  border-top: 1px solid #0065fc;
+  padding: 10px 0 10px 0;
+  border-top: 3px solid #0065fc;
 }
 
 #sinscrire {
   font-weight: 900;
-  font-size: 10px;
+  font-size: 12px;
   color: #0065fc;
   cursor: default;
 }
@@ -67,42 +65,46 @@ nav a:hover {
 }
 
 main {
-  border: 3px solid pink;
+  margin-top: 20px;
+  /* border: 3px solid pink; */
 }
 
-/*Section recherche et filtres*/
-/*recherche*/
+/*** SECTION RECHERCHE ET FILTRE ***/
+/*** RECHERCHE ***/
+
 #recherche {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 
 #introduction {
   display: flex;
   flex-direction: column;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
 }
 
 #introduction h2 {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   font-size: 12px;
   font-weight: 900;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
 #introduction p {
   margin-top: 0px;
   font-size: 10px;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
 form {
   display: flex;
   height: 30px;
-  border: 3px solid yellow;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* border: 3px solid yellow; */
 }
 
 form span {
@@ -114,7 +116,7 @@ form span {
   background-color: #f2f2f2;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
 #zone_recherche {
@@ -128,7 +130,7 @@ form span {
   border-bottom: solid #f2f2f2 1px;
   border-left: none;
   border-right: none;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
 #bouton_recherche {
@@ -143,32 +145,31 @@ form span {
   border: none;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
 #bouton_recherche:hover {
   background-color: #1938e7;
 }
 
-/*filtres*/
+/*** FILTRES ***/
+
 #filtres {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
 }
 
 #titre_filtre {
   font-weight: 800;
   font-size: 12px;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
 #theme {
   display: flex;
   align-items: center;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
 .exemple_theme {
@@ -200,7 +201,7 @@ form span {
   color: #0065fc;
   border-radius: 50px;
   background-color: #deebff;
-  /* border: 2px solid orange; */
+  /* border: 3px solid orange; */
 }
 
 .nom_filtre {
@@ -213,15 +214,17 @@ form span {
   font-size: 12px;
   padding-left: 10px;
   padding-right: 10px;
-  /* border: 2px solid orange; */
+  /* border: 3px solid orange; */
 }
 
-/* information */
+/*** INFORMATION ***/
+
 #information {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid yellow;
+  margin-top: 10px;
+  /* border: 3px solid yellow; */
 }
 
 #information span {
@@ -239,5 +242,262 @@ form span {
 
 #information p {
   font-size: 10px;
+  padding-left: 10px;
+}
+
+/*** SECTION HEBERGEMENTS ***/
+
+#container_hebergements {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* border: 3px solid green; */
+}
+
+#container_hebergements a {
+  text-decoration: none;
+  color: black;
+}
+
+#container_hebergements a:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.etoile_bleue {
+  color: #0065fc;
+}
+
+.etoile_grise {
+  color: #dddddd;
+}
+
+/*** HEBERGEMENTS PRINCIPAUX ***/
+
+#hebergements_principaux {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  /* border: 3px solid yellow; */
+}
+
+#hebergements_principaux h2 {
+  padding-left: 20px;
+  margin-top: 35px;
+  font-size: 12px;
+  font-weight: 900;
+  /* border: 3px solid purple; */
+}
+
+#liste_hebergements_principaux {
+  display: grid;
+  gap: 30px;
+  padding: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  /* border: 3px solid purple; */
+}
+
+.carte_identite {
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  border: 3px solid white;
+  border-radius: 15px;
+  /* border: 3px solid blue; */
+}
+
+.carte_identite img {
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.carte_identite_info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.nom_et_prix {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.carte_identite_info h3 {
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.carte_identite_info p {
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.note_etoile_principaux {
+  margin-top: 0px;
+  padding-left: 5px;
+  font-size: 8px;
+}
+
+#afficher_plus {
+  padding-left: 20px;
+  font-size: 11px;
+  font-weight: 900;
+  /* border: 3px solid purple; */
+}
+
+/*** HERGEMENTS POPULAIRES ***/
+
+#hebergements_populaires {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 14px;
+  /* border: 3px solid yellow; */
+}
+
+#titre_hebergements_populaires {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  /* border: 3px solid purple; */
+}
+
+#titre_hebergements_populaires h2 {
+  margin-right: 60px;
+  font-size: 12px;
+  font-weight: 900;
+  /* border: 3px solid rgb(207, 161, 207); */
+}
+
+#titre_hebergements_populaires span {
+  font-size: 15px;
+  /* border: 3px solid rgb(207, 161, 207); */
+}
+
+#liste_hebergements_populaires {
+  display: grid;
+  gap: 30px;
+  padding: 20px;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  /* border: 3px solid purple; */
+}
+
+.carte_identite_hebergements_populaires {
+  display: flex;
+  height: 120px;
+  width: 230px;
+  background-color: white;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  border: 3px solid white;
+  border-radius: 15px;
+  /* border: 3px solid blue; */
+}
+
+.carte_identite_hebergements_populaires img {
+  width: 100px;
+  border-radius: 15px 0 0 15px;
+  object-fit: cover;
+  /* border: 3px solid orange; */
+}
+
+.note_etoile_populaires {
+  margin-top: 15px;
+  padding-left: 5px;
+  font-size: 8px;
+}
+
+/*** SECTION ACTIVITES ***/
+
+#container_activites {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  /* border: 3px solid green; */
+}
+
+#container_activites a {
+  text-decoration: none;
+  color: black;
+}
+
+#container_activites a:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#container_activites h2 {
+  padding-left: 20px;
+  margin-top: 35px;
+  font-size: 12px;
+  font-weight: 900;
+  /* border: 3px solid purple; */
+}
+
+#galerie_photo_activite {
+  display: grid;
+  justify-content: space-around;
+  grid-template-areas:
+    "port fort calanque notre_dame"
+    "port ile calanque longchamp";
+  /* border: 3px solid yellow; */
+}
+
+#activite_port {
+  grid-area: port;
+}
+#activite_fort {
+  grid-area: fort;
+}
+#activite_ile {
+  grid-area: ile;
+}
+#activite_calanque {
+  grid-area: calanque;
+}
+#activite_notre_dame {
+  grid-area: notre_dame;
+}
+#activite_longchamp {
+  grid-area: longchamp;
+}
+
+.carte_activite_double img {
+  width: 215px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.carte_activite_individuelle img {
+  width: 215px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+#galerie_photo_activite figure {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px 15px 15px;
+  padding-bottom: 10px;
+  /* border: 3px solid yellow; */
+}
+
+#galerie_photo_activite figcaption {
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 5px;
   padding-left: 10px;
 }
