@@ -1,6 +1,11 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   font-family: "Raleway", sans-serif;
   /* border: 3px solid black; */
 }
@@ -8,6 +13,7 @@ body {
 #bloc_page {
   width: 100%;
   max-width: 1100px;
+  margin: auto;
   /* border: 3px solid red; */
 }
 
@@ -423,81 +429,143 @@ form span {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 1100px;
+  align-items: flex-start;
   /* border: 3px solid green; */
 }
 
-#container_activites a {
-  text-decoration: none;
-  color: black;
-}
-
-#container_activites a:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
-}
-
 #container_activites h2 {
-  padding-left: 20px;
+  padding-left: 10px;
   margin-top: 35px;
+  margin-bottom: 30px;
   font-size: 12px;
   font-weight: 900;
   /* border: 3px solid purple; */
 }
 
-#galerie_photo_activite {
-  display: grid;
-  justify-content: space-around;
-  grid-template-areas:
-    "port fort calanque notre_dame"
-    "port ile calanque longchamp";
-  /* border: 3px solid yellow; */
-}
-
-#activite_port {
-  grid-area: port;
-}
-#activite_fort {
-  grid-area: fort;
-}
-#activite_ile {
-  grid-area: ile;
-}
-#activite_calanque {
-  grid-area: calanque;
-}
-#activite_notre_dame {
-  grid-area: notre_dame;
-}
-#activite_longchamp {
-  grid-area: longchamp;
-}
-
-.carte_activite_double img {
-  width: 215px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 15px 15px 0 0;
-}
-
-.carte_activite_individuelle img {
-  width: 215px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 15px 15px 0 0;
-}
-
-#galerie_photo_activite figure {
+figure {
+  background-color: white;
+  border-radius: 15px;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 15px 15px 15px;
-  padding-bottom: 10px;
-  /* border: 3px solid yellow; */
 }
-
-#galerie_photo_activite figcaption {
+figure:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  cursor: pointer;
+}
+figcaption {
   font-size: 12px;
   font-weight: 900;
-  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.galerie_photo_activite {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+  max-width: 1100px;
+  /* border: 3px solid purple; */
+}
+
+.carte_simple {
+  display: flex;
+  /* border: 3px solid red; */
+}
+
+.carte_double {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 3px solid blue; */
+}
+
+.carte_identite_activite_a {
+  width: 210px;
+  margin: 0;
+  /* border: 3px solid gold; */
+}
+
+.carte_identite_activite_b {
+  width: 230px;
+  height: 50%;
+  margin: 0;
+  /* border: 3px solid grey; */
+}
+
+.carte_identite_activite_c {
+  width: 230px;
+  height: 40%;
+  margin: 0;
+  /* border: 3px solid black; */
+}
+
+.imageactivites_a {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 88%;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+
+.imageactivites_b {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 75%;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+
+.imageactivites_c {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 70%;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+
+/*** FOOTER ***/
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-right: 250px;
   padding-left: 10px;
+  background-color: #f2f2f2;
+  /* border: 3px solid green; */
+}
+
+.footer_content h3 {
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  /* border: 3px solid green; */
+}
+
+.footer_content ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  /* border: 3px solid yellow; */
+}
+
+.footer_content li {
+  display: flex;
+  list-style: none;
+  padding-bottom: 5px;
+  font-size: 12px;
+  /* border: 3px solid orangered; */
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  /* border: 3px solid purple; */
 }
