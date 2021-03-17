@@ -24,14 +24,16 @@
     <div id="bloc_page">
       <!-- Header -->
       <header>
-        <img id="logo" src="img/logo/Reservia@3x.png" alt="Logo du site" />
+        <div id="box_logo">
+          <img id="logo" src="img/logo/Reservia.svg" alt="Logo du site" />
+        </div>
         <nav id="menu">
           <ul>
             <li><a href="#liste_hebergements_principaux">Hébergements</a></li>
             <li><a href="#galerie_photo_activite">Activités</a></li>
-            <li id="sinscrire">S'inscrire</li>
           </ul>
         </nav>
+        <p id="sinscrire">S'inscrire</p>
       </header>
       <!-- Fin Header -->
       <!-- Section principale -->
@@ -49,6 +51,9 @@
               type="text"
               placeholder="Marseille, France"
             />
+            <button id="search_icon" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
             <button id="bouton_recherche" type="submit">Rechercher</button>
           </form>
           <div id="filtres">
@@ -380,7 +385,7 @@
         <!-- Section activites -->
         <section id="container_activites">
           <h2>Activités à Marseille</h2>
-          <div class="galerie_photo_activite">
+          <div id="galerie_photo_activite">
             <div class="carte_simple">
               <figure class="carte_identite_activite_a">
                 <img
