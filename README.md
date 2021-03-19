@@ -1,1 +1,1 @@
-# This is my projet n°2.
+# This is my project n°2.
