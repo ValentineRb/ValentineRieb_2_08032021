@@ -610,7 +610,7 @@ figure:hover {
   #border_bottom_hebergements:hover,
   #border_bottom_activites:hover {
     color: #0065fc;
-    border-color: #0065fc;
+    border-color: #0065fc ;
   }
 
   #sinscrire {
@@ -640,6 +640,10 @@ figure:hover {
     margin-left: 20px;
   }
 
+  #zone_recherche {
+    width: 220px;
+  }
+  
   #search_icon {
     display: initial;
     width: 40px;
@@ -652,7 +656,7 @@ figure:hover {
   }
 
   form span {
-    width: 40px;
+    width: 45px;
   }
 
   #bouton_recherche {
@@ -731,7 +735,7 @@ figure:hover {
 
   #hebergements_populaires {
     border-radius: 0px;
-  }
+  } 
 
   .carte_identite_hebergements_populaires {
     flex-direction: column;
@@ -779,7 +783,7 @@ figure:hover {
     align-items: center;
   }
 
-  .carte_identite_hebergements_populaires {
+   .carte_identite_hebergements_populaires {
     flex-direction: row;
     height: 150px;
     width: 700px;
@@ -895,13 +899,13 @@ figure:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
-}
+ }
 
-@media screen and (max-width: 990px) {
+ @media screen and (max-width: 990px) {
   #galerie_photo_activite {
     flex-direction: column;
     height: auto;
-    margin: auto;
+    margin:auto;
     align-items: center;
   }
 
