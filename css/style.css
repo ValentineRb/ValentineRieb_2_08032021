@@ -8,7 +8,6 @@ body {
   justify-content: center;
   margin: 0px;
   font-family: "Raleway", sans-serif;
-  /* border: 3px solid black; */
 }
 
 body h2 {
@@ -25,7 +24,6 @@ body h3 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  /* border: 3px solid red; */
 }
 
 /*** HEADER ***/
@@ -37,31 +35,26 @@ header {
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* border: 3px solid blue; */
 }
 
 #box_logo {
   flex-basis: 50%;
   padding-left: 10px;
-  /* border: 3px solid yellow; */
 }
 
 #menu {
   display: flex;
   justify-content: flex-end;
   flex-basis: 50%;
-  /* border: 3px solid yellow; */
 }
 
 #menu ul {
   display: flex;
-  /* border: 3px solid red; */
 }
 
 #menu li {
   list-style: none;
   padding-left: 35px;
-  /* border: 3px solid pink; */
 }
 
 #menu a {
@@ -83,7 +76,6 @@ header {
   font-size: 12px;
   color: #0065fc;
   cursor: pointer;
-  /* border: 3px solid yellow; */
 }
 
 /*** SECTION RECHERCHE ET FILTRE ***/
@@ -94,25 +86,21 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   margin-left: 10px;
-  /* border: 3px solid green; */
 }
 
 #introduction {
   display: flex;
   flex-direction: column;
-  /* border: 3px solid yellow; */
 }
 
 #introduction h2 {
   margin-top: 0px;
   margin-bottom: 5px;
-  /* border: 3px solid purple; */
 }
 
 #introduction p {
   margin-top: 0px;
   font-size: 12px;
-  /* border: 3px solid purple; */
 }
 
 form {
@@ -120,7 +108,6 @@ form {
   height: 30px;
   margin-top: 10px;
   margin-bottom: 20px;
-  /* border: 3px solid yellow; */
 }
 
 form span {
@@ -132,7 +119,6 @@ form span {
   background-color: #f2f2f2;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  /* border: 3px solid purple; */
 }
 
 #zone_recherche {
@@ -146,7 +132,6 @@ form span {
   border-bottom: solid #f2f2f2 1px;
   border-left: none;
   border-right: none;
-  /* border: 3px solid purple; */
 }
 
 #bouton_recherche {
@@ -160,7 +145,6 @@ form span {
   border: none;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  /* border: 3px solid purple; */
 }
 
 #bouton_recherche:hover {
@@ -177,20 +161,17 @@ form span {
 #filtres {
   display: flex;
   align-items: center;
-  /* border: 3px solid yellow; */
 }
 
 #titre_filtre {
   font-weight: 800;
   font-size: 12px;
-  /* border: 3px solid purple; */
 }
 
 #theme {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  /* border: 3px solid purple; */
 }
 
 .exemple_theme {
@@ -203,7 +184,6 @@ form span {
   border-bottom: 2px solid #f2f2f2;
   border-left: none;
   border-right: 2px solid #f2f2f2;
-  /* border: 3px solid pink; */
 }
 
 .exemple_theme:hover {
@@ -222,7 +202,6 @@ form span {
   color: #0065fc;
   border-radius: 50px;
   background-color: #deebff;
-  /* border: 3px solid orange; */
 }
 
 .nom_filtre {
@@ -235,7 +214,6 @@ form span {
   font-size: 12px;
   padding-left: 10px;
   padding-right: 10px;
-  /* border: 3px solid orange; */
 }
 
 /*** INFORMATION ***/
@@ -245,7 +223,6 @@ form span {
   justify-content: flex-start;
   align-items: center;
   margin-top: 10px;
-  /* border: 3px solid yellow; */
 }
 
 #information span {
@@ -272,7 +249,6 @@ form span {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  /* border: 3px solid green; */
 }
 
 #container_hebergements a {
@@ -302,12 +278,10 @@ form span {
   padding-right: 30px;
   background-color: #f2f2f2;
   border-radius: 15px;
-  /* border: 3px solid yellow; */
 }
 
 #hebergements_principaux h2 {
   margin-top: 20px;
-  /* border: 3px solid purple; */
 }
 
 #liste_hebergements_principaux {
@@ -315,7 +289,6 @@ form span {
   gap: 30px;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
-  /* border: 3px solid purple; */
 }
 
 .carte_identite {
@@ -327,7 +300,6 @@ form span {
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
   border: 4px solid white;
   border-radius: 15px;
-  /* border: 3px solid blue; */
 }
 
 .carte_identite img {
@@ -335,40 +307,34 @@ form span {
   height: 100px;
   border-radius: 10px 10px 0 0;
   object-fit: cover;
-  /* border: 3px solid yellow; */
 }
 
 .carte_identite_info {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
-  /* border: 3px solid yellow; */
 }
 
 .carte_identite_info h3 {
   margin-top: 5px;
   margin-bottom: 5px;
-  /* border: 3px solid orange; */
 }
 
 .carte_identite_info p {
   font-size: 12px;
   margin-top: 0px;
   margin-bottom: 5px;
-  /* border: 3px solid orange; */
 }
 
 .note_etoile_principaux {
   font-size: 10px;
   margin-top: 10px;
-  /* border: 3px solid orange; */
 }
 
 #afficher_plus {
   padding-top: 20px;
   font-size: 12px;
   font-weight: 900;
-  /* border: 3px solid purple; */
 }
 
 /*** HERGEMENTS POPULAIRES ***/
@@ -380,7 +346,6 @@ form span {
   padding-right: 30px;
   background-color: #f2f2f2;
   border-radius: 14px;
-  /* border: 3px solid red; */
 }
 
 #titre_hebergements_populaires {
@@ -389,12 +354,10 @@ form span {
   align-items: center;
   margin-top: 0px;
   padding-top: 7px;
-  /* border: 3px solid purple; */
 }
 
 #titre_hebergements_populaires span {
   font-size: 20px;
-  /* border: 3px solid pink; */
 }
 
 #liste_hebergements_populaires {
@@ -403,7 +366,6 @@ form span {
   margin-bottom: 30px;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
-  /* border: 3px solid purple; */
 }
 
 .carte_identite_hebergements_populaires {
@@ -414,21 +376,18 @@ form span {
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
   border: 4px solid white;
   border-radius: 15px;
-  /* border: 3px solid blue; */
 }
 
 .carte_identite_hebergements_populaires img {
   width: 120px;
   border-radius: 15px 0 0 15px;
   object-fit: cover;
-  /* border: 3px solid orange; */
 }
 
 .note_etoile_populaires,
 .note_etoile_populaires_unique {
   margin-top: 40px;
   font-size: 10px;
-  /* border: 3px solid orange; */
 }
 
 /*** SECTION ACTIVITES ***/
@@ -438,7 +397,6 @@ form span {
   flex-direction: column;
   align-items: flex-start;
   margin-top: 20px;
-  /* border: 3px solid green; */
 }
 
 #galerie_photo_activite {
@@ -446,19 +404,16 @@ form span {
   justify-content: space-between;
   height: 300px;
   width: 100%;
-  /* border: 3px solid purple; */
 }
 
 .carte_simple {
   display: flex;
-  /* border: 3px solid red; */
 }
 
 .carte_double {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* border: 3px solid blue; */
 }
 
 figure {
@@ -483,21 +438,18 @@ figure:hover {
 .carte_identite_activite_a {
   width: 210px;
   margin: 0;
-  /* border: 3px solid gold; */
 }
 
 .carte_identite_activite_b {
   width: 230px;
   height: 50%;
   margin: 0;
-  /* border: 3px solid grey; */
 }
 
 .carte_identite_activite_c {
   width: 230px;
   height: 40%;
   margin: 0;
-  /* border: 3px solid black; */
 }
 
 .imageactivites_a {
@@ -538,14 +490,12 @@ figure:hover {
   padding-right: 250px;
   padding-left: 10px;
   background-color: #f2f2f2;
-  /* border: 3px solid green; */
 }
 
 .footer_content {
   display: flex;
   flex-direction: column;
   margin-left: 50px;
-  /* border: 3px solid red; */
 }
 
 .footer_content h3 {
@@ -556,7 +506,6 @@ figure:hover {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  /* border: 3px solid yellow; */
 }
 
 .footer_content li {
@@ -564,7 +513,6 @@ figure:hover {
   list-style: none;
   padding-bottom: 5px;
   font-size: 12px;
-  /* border: 3px solid orangered; */
 }
 
 /*****************************/
@@ -610,7 +558,7 @@ figure:hover {
   #border_bottom_hebergements:hover,
   #border_bottom_activites:hover {
     color: #0065fc;
-    border-color: #0065fc ;
+    border-color: #0065fc;
   }
 
   #sinscrire {
@@ -643,7 +591,7 @@ figure:hover {
   #zone_recherche {
     width: 220px;
   }
-  
+
   #search_icon {
     display: initial;
     width: 40px;
@@ -735,7 +683,7 @@ figure:hover {
 
   #hebergements_populaires {
     border-radius: 0px;
-  } 
+  }
 
   .carte_identite_hebergements_populaires {
     flex-direction: column;
@@ -783,7 +731,7 @@ figure:hover {
     align-items: center;
   }
 
-   .carte_identite_hebergements_populaires {
+  .carte_identite_hebergements_populaires {
     flex-direction: row;
     height: 150px;
     width: 700px;
@@ -899,13 +847,13 @@ figure:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
- }
+}
 
- @media screen and (max-width: 990px) {
+@media screen and (max-width: 990px) {
   #galerie_photo_activite {
     flex-direction: column;
     height: auto;
-    margin:auto;
+    margin: auto;
     align-items: center;
   }
 
